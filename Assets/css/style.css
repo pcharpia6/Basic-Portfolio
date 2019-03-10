@@ -3,9 +3,13 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-body {
+html, body {
+    height: 100%;
     margin: 0px;
-    min-height: 100%;
+}
+
+.all-content{
+    min-height:100%;
 }
 
 .container {
@@ -15,18 +19,22 @@ body {
 
 .content {
     clear: both;
+    padding-bottom: 70px;
 }
 
 footer {
+    clear: both;
     background-color: #666666;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 5px;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
-    position: -webkit-sticky;
     position: sticky;
+    position: -webkit-sticky;
     bottom: 0;
+    width: 100%;
+    margin-top: -71px;
 }
 
 footer p {
