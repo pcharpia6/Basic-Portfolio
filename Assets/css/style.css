@@ -5,6 +5,7 @@
 
 body {
     margin: 0px;
+    min-height: 100%;
 }
 
 .container {
@@ -16,6 +17,22 @@ body {
     clear: both;
 }
 
+footer {
+    background-color: #666666;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    border-top: 8px solid #4aaaa5;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0px;
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
@@ -25,8 +42,24 @@ h1 {
     text-align: center;
 }
 
-h3 {
+h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+form {
+    margin: 15px 0px;
+}
+
+form label {
+    margin: 6px 0px;
+}
+
+form input {
+    margin: 6px 0px;
+}
+
+form textarea {
+    margin: 6px 0px;
 }
 
 .nav {
