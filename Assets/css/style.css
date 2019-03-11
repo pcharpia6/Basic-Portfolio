@@ -15,11 +15,28 @@ html, body {
 .container {
     width: 960px;
     margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.head-container {
+    width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 20px;
 }
 
 .content {
     clear: both;
-    padding-bottom: 70px;
+    padding-bottom: 200px;
+    width: 100%;
+    border-top: 2px solid #cccccc;
+    background: url(../images/background.png);
+}
+
+.main-header {
+    height: 88px;
 }
 
 footer {
@@ -48,10 +65,14 @@ h1 {
     padding: 15px;
     float: left;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
 }
 
 form {
@@ -70,6 +91,10 @@ form textarea {
     margin: 6px 0px;
 }
 
+form .text{
+    width: 100%;
+}
+
 .nav {
     float: right;
     text-align: center;
@@ -78,6 +103,7 @@ form textarea {
 
 .nav ul {
     padding: 15px 0px;
+    margin-bottom: 0px;
 }
 
 .nav li {
@@ -91,9 +117,49 @@ form textarea {
     margin-top: 15px;
 }
 
+ul.linkPictures {
+    padding: 0px;
+}
+
+li.img-overlay {
+    margin: 15px 25px 15px 0px;
+}
+
+.linkPictures {
+    position: relative;
+    width: 100%;
+}
+
+.img-overlay {
+    position: relative;
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    margin: 25px 15px;
+    font-size: 30px;
+}
+
+.overlayText {
+    position: absolute;
+    top: 70%;
+    transform: translate(0%, 0%);
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
 .portfolioLink {
-    width: 25%;
-    margin: 25px 30px;
+    margin: 0px;
+    width: 100%;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    font-weight: bold;
 }
 
 #mid-line {
